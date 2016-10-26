@@ -18,8 +18,8 @@ body {
 }
 
 .navbar { 
-  padding: 10px;
-  letter-spacing: 2px;
+  padding: 5px;
+ 
 }
 
 .navbar-custom {
@@ -36,7 +36,7 @@ body {
 .navbar-custom .nav li a:active {
     outline: 0;
     text-align: center;
-    background-color: transparent;
+    background-color: black;
 }
 
 .portfolio-nav li div {
@@ -49,13 +49,14 @@ body {
   letter-spacing: 8px;
   text-transform: uppercase;
   position: relative; 
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 40px;
 }
 
 .portfolio-nav div.active{
   background-size: contain;
   background-position: center;
+  background-color: black;
 }
 
 .portfolio-nav div button:focus{
